@@ -3,8 +3,10 @@ Support for replanting:
 * Beetroots
 * Potatoes
 * Carrots
-
-I might get to the sniffer plants at some point, but come on. Who's *actually* farming those.
+* Nether Wart
+* Sugar Cane (if you desire)
+* Bamboo (again if you desire)
+* Torchflower (come on, who's *actually* farming those?)
 
 If you want installation instructions, check the Minecraft Wiki tutorial for it [here](https://minecraft.wiki/w/Tutorials/Installing_a_data_pack).
 

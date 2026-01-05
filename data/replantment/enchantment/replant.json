@@ -74,6 +74,39 @@
           "block": "minecraft:nether_wart",
           "properties": {}
         }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "replantment:sugar_cane/sugar_cane"
+        },
+        "requirements": {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:sugar_cane",
+          "properties": {}
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "replantment:torchflower/torchflower"
+        },
+        "requirements": {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:torchflower",
+          "properties": {}
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "replantment:bamboo/bamboo"
+        },
+        "requirements": {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:bamboo",
+          "properties": {}
+        }
       }
     ]
   }
