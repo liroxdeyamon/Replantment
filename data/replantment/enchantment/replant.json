@@ -8,11 +8,11 @@
   "max_level": 1,
   "min_cost": {
     "base": 1,
-    "per_level_above_first": 1
+    "per_level_above_first": 0
   },
   "max_cost": {
     "base": 51,
-    "per_level_above_first": 10
+    "per_level_above_first": 0
   },
   "anvil_cost": 0,
   "slots": [
@@ -23,89 +23,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "replantment:carrot/carrot"
-        },
-        "requirements": {
-          "condition": "minecraft:block_state_property",
-          "block": "minecraft:carrots",
-          "properties": {}
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:run_function",
-          "function": "replantment:wheat/wheat"
-        },
-        "requirements": {
-          "condition": "minecraft:block_state_property",
-          "block": "minecraft:wheat",
-          "properties": {}
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:run_function",
-          "function": "replantment:beetroot/beetroot"
-        },
-        "requirements": {
-          "condition": "minecraft:block_state_property",
-          "block": "minecraft:beetroots",
-          "properties": {}
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:run_function",
-          "function": "replantment:potato/potato"
-        },
-        "requirements": {
-          "condition": "minecraft:block_state_property",
-          "block": "minecraft:potatoes",
-          "properties": {}
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:run_function",
-          "function": "replantment:nether_wart/nether_wart"
-        },
-        "requirements": {
-          "condition": "minecraft:block_state_property",
-          "block": "minecraft:nether_wart",
-          "properties": {}
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:run_function",
-          "function": "replantment:sugar_cane/sugar_cane"
-        },
-        "requirements": {
-          "condition": "minecraft:block_state_property",
-          "block": "minecraft:sugar_cane",
-          "properties": {}
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:run_function",
-          "function": "replantment:torchflower/torchflower"
-        },
-        "requirements": {
-          "condition": "minecraft:block_state_property",
-          "block": "minecraft:torchflower",
-          "properties": {}
-        }
-      },
-      {
-        "effect": {
-          "type": "minecraft:run_function",
-          "function": "replantment:bamboo/bamboo"
-        },
-        "requirements": {
-          "condition": "minecraft:block_state_property",
-          "block": "minecraft:bamboo",
-          "properties": {}
+          "function": "replantment:replant_any"
         }
       }
     ]
